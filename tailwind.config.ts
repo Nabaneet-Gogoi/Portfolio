@@ -5,7 +5,7 @@ const config: Config = {
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
-    "*.{js,ts,jsx,mdx}",
+    "*.{js,ts,jsx,tsx,mdx}",
     "app/**/*.{ts,tsx}",
     "components/**/*.{ts,tsx}",
     "*.{js,ts,jsx,tsx,mdx}",
@@ -14,6 +14,8 @@ const config: Config = {
     extend: {
       fontFamily: {
         tech: ["var(--font-orbitron)", "sans-serif"],
+        orbitron: ["var(--font-orbitron)", "sans-serif"],
+        inter: ["var(--font-inter)", "sans-serif"],
       },
       colors: {
         border: "hsl(var(--border))",
@@ -56,6 +58,9 @@ const config: Config = {
         emerald: {
           400: "#34d399",
           900: "#064e3b",
+        },
+        teal: {
+          300: "#5eead4",
         },
       },
       borderRadius: {
